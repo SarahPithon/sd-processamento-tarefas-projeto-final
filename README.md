@@ -6,20 +6,6 @@
 
 ---
 
-## 📋 Índice
-
-1. [Guia de Instalação e Execução](#guia-de-instalação-e-execução)
-2. [Exemplos de Uso](#exemplos-de-uso)
-3. [Introdução e Fundamentação Teórica](#introdução-e-fundamentação-teórica)
-4. [Arquitetura do Sistema](#arquitetura-do-sistema)
-5. [Protocolos, Algoritmos e Políticas](#protocolos-algoritmos-e-políticas)
-6. [Evidências de Execução](#evidências-de-execução)
-7. [Análise Crítica](#análise-crítica)
-8. [Conclusão](#conclusão)
-9. [Referências Técnicas](#referências-técnicas)
-
----
-
 ## 🚀 Guia de Instalação e Execução
 
 ### Pré-requisitos
