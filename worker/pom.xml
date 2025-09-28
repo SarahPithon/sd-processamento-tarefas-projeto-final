@@ -14,4 +14,40 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
 
+    <dependencies>
+        <!-- JSON processing -->
+        <dependency>
+            <groupId>com.fasterxml.jackson.core</groupId>
+            <artifactId>jackson-databind</artifactId>
+            <version>2.15.2</version>
+        </dependency>
+    </dependencies>
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.codehaus.mojo</groupId>
+                <artifactId>exec-maven-plugin</artifactId>
+                <version>3.1.0</version>
+                <configuration>
+                    <mainClass>br.edu.ifba.worker.Worker2</mainClass>
+                </configuration>
+                <executions>
+                    <execution>
+                        <id>worker1</id>
+                        <configuration>
+                            <mainClass>br.edu.ifba.worker.Worker1</mainClass>
+                        </configuration>
+                    </execution>
+                    <execution>
+                        <id>worker2</id>
+                        <configuration>
+                            <mainClass>br.edu.ifba.worker.Worker2</mainClass>
+                        </configuration>
+                    </execution>
+                </executions>
+            </plugin>
+        </plugins>
+    </build>
+
 </project>

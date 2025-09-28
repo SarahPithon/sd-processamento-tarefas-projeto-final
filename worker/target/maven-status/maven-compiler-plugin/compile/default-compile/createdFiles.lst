@@ -1,0 +1,8 @@
+br\edu\ifba\worker\util\RelogioLamport.class
+br\edu\ifba\worker\Worker1.class
+br\edu\ifba\worker\network\ClienteTCP.class
+br\edu\ifba\Main.class
+br\edu\ifba\worker\Worker3.class
+br\edu\ifba\worker\model\Tarefa.class
+br\edu\ifba\worker\Worker.class
+br\edu\ifba\worker\Worker2.class
