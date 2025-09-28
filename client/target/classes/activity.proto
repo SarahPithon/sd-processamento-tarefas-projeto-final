@@ -1,0 +1,34 @@
+syntax = "proto3";
+
+package br.edu.ifba.atividade;
+
+option java_package = "br.edu.ifba.orchestrator.atividade";
+option java_outer_classname = "OrquestradorAtividadeProto";
+
+message Atividade {
+  string titulo = 1;
+  string descricao = 2;
+  int64 marcaTempo = 3;
+}
+
+message EnviarAtividadeRequisicao {
+  Atividade atividade = 1;
+}
+
+message EnviarAtividadeResposta {
+  bool sucesso = 1;
+  string mensagem = 2;
+}
+
+message ListarAtividadesRequisicao {
+}
+
+message ListarAtividadesResposta {
+  repeated Atividade atividades = 1;
+}
+
+service ServicoAtividade {
+    rpc enviarAtividade(EnviarAtividadeRequisicao) returns (EnviarAtividadeResposta);
+    
+    rpc listarAtividades(ListarAtividadesRequisicao) returns (ListarAtividadesResposta);
+}
