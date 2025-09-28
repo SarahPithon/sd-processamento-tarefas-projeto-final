@@ -6,14 +6,10 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="core" />
+        <module name="worker" />
         <module name="client" />
         <module name="orchestrator" />
-        <module name="worker" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="ifba" target="21" />
-    </bytecodeTargetLevel>
   </component>
 </project>

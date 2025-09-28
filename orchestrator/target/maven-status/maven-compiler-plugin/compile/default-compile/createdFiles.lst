@@ -1,0 +1,13 @@
+br\edu\ifba\orchestrator\atividade\ServicoAtividadeGrpc.class
+br\edu\ifba\orchestrator\atividade\ServicoAtividadeGrpc$3.class
+br\edu\ifba\orchestrator\atividade\ServicoAtividadeGrpc$ServicoAtividadeBlockingStub.class
+br\edu\ifba\orchestrator\atividade\ServicoAtividadeGrpc$MethodHandlers.class
+br\edu\ifba\orchestrator\atividade\ServicoAtividadeGrpc$2.class
+br\edu\ifba\orchestrator\atividade\ServicoAtividadeGrpc$ServicoAtividadeMethodDescriptorSupplier.class
+br\edu\ifba\orchestrator\atividade\ServicoAtividadeGrpc$1.class
+br\edu\ifba\orchestrator\atividade\ServicoAtividadeGrpc$ServicoAtividadeStub.class
+br\edu\ifba\orchestrator\atividade\ServicoAtividadeGrpc$ServicoAtividadeImplBase.class
+br\edu\ifba\orchestrator\atividade\ServicoAtividadeGrpc$AsyncService.class
+br\edu\ifba\orchestrator\atividade\ServicoAtividadeGrpc$ServicoAtividadeFutureStub.class
+br\edu\ifba\orchestrator\atividade\ServicoAtividadeGrpc$ServicoAtividadeBaseDescriptorSupplier.class
+br\edu\ifba\orchestrator\atividade\ServicoAtividadeGrpc$ServicoAtividadeFileDescriptorSupplier.class
