@@ -610,16 +610,3 @@ public synchronized void atualizarTempo(long tempoRecebido) {
 }
 ```
 
-### 3.3 Políticas de Balanceamento
-
-#### 3.3.1 Round-Robin com Monitoramento de Carga
-
-- **Distribuição Sequencial**: Tarefas são atribuídas em sequência circular
-- **Ajuste por Capacidade**: Considera a capacidade atual de cada worker
-- **Redistribuição Dinâmica**: Realoca tarefas de workers sobrecarregados
-
-#### 3.3.2 Política de Failover
-
-- **Detecção Proativa**: Heartbeat a cada 5 segundos
-- **Timeout Configurável**: 15 segundos para considerar nó inativo
-- **Recuperação Automática**: Orquestrador backup assume automaticamente
